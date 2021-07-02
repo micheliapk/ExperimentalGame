@@ -1,0 +1,60 @@
+{
+	"name": "Snakeworm",
+	"plugin-id": "Sprite",
+	"sid": 690700203365008,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 886041392241519
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 495130625238317
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2160279,
+						"collisionPoly": {
+							"points": [
+								0.10315625000000002,
+								0.5425625000000004,
+								0.9335000000000008,
+								0.556125000000001,
+								0.9224687500000008,
+								0.6738125000000004,
+								0.0795625,
+								0.681812500000001
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 588622704987486,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

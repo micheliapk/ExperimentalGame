@@ -1,0 +1,382 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 699654779714045,
+					"parameters": {
+						"object": "Poison"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Player",
+					"sid": 263405420266556,
+					"parameters": {
+						"x": "122",
+						"y": "264"
+					}
+				}
+			],
+			"sid": 478753999236457
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 615763147931135,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 364628310244104,
+					"parameters": {
+						"animation": "\"Run\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Player",
+					"sid": 408003906169043,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 910476050810810
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 637460783463344,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 774494669917913,
+					"parameters": {
+						"animation": "\"Run\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Player",
+					"sid": 501228835680840,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 554485893845966
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-released",
+					"objectClass": "Keyboard",
+					"sid": 444575205236783,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 627231661721901,
+					"parameters": {
+						"animation": "\"Idle\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 670134762604397
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-released",
+					"objectClass": "Keyboard",
+					"sid": 671608452046582,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 171774668091002,
+					"parameters": {
+						"animation": "\"Idle\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 224245730272223
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 185147712080579,
+					"parameters": {
+						"object": "Button"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 272661003565197,
+					"parameters": {
+						"layout": "Lvl 1 (2)"
+					}
+				}
+			],
+			"sid": 537994991236233
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 159313724228661,
+					"parameters": {
+						"object": "InviBlock"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "InviBlock",
+					"sid": 329070789589072,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 844822773868332,
+					"parameters": {
+						"layout": "Lvl 1 (3)"
+					}
+				}
+			],
+			"sid": 899481049070154
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 830250715891270,
+					"parameters": {
+						"object": "Acid"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 531370580221555,
+					"parameters": {
+						"layout": "Lvl 1 (3)"
+					}
+				}
+			],
+			"sid": 820239014756376
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 141864149640663,
+					"parameters": {
+						"object": "Button2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 702776378633106,
+					"parameters": {
+						"layout": "Lvl 1 (4)"
+					}
+				}
+			],
+			"sid": 352016729644832
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 950538318097622,
+					"parameters": {
+						"object": "Tunnel2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 125618670922689,
+					"parameters": {
+						"layout": "Lvl 2 (1)"
+					}
+				}
+			],
+			"sid": 506649131167014
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "OpenUp",
+					"sid": 378520218742867,
+					"parameters": {
+						"object": "Player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Blockedwall",
+					"sid": 154592674346042
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "OpenUp",
+					"sid": 643491477320377,
+					"parameters": {
+						"opacity": "70"
+					}
+				}
+			],
+			"sid": 657680854065483
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 480397712200746,
+					"parameters": {
+						"object": "MazeButton"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Amazing",
+					"sid": 236958887623915
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "MazeButton",
+					"sid": 196784571375765,
+					"parameters": {
+						"opacity": "70"
+					}
+				}
+			],
+			"sid": 410258258047920
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 264660040547751,
+					"parameters": {
+						"object": "Portal"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 893659252976830,
+					"parameters": {
+						"layout": "Lvl 2 (2)"
+					}
+				}
+			],
+			"sid": 178644804678438
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Snakeworm",
+					"sid": 754732162041648,
+					"parameters": {
+						"object": "Player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Player",
+					"sid": 677899945433315,
+					"parameters": {
+						"x": "187",
+						"y": "556"
+					}
+				}
+			],
+			"sid": 221199959041745
+		}
+	],
+	"sid": 852594512596003
+}
